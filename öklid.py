@@ -9,7 +9,7 @@ def euclideanDistance(point1, point2):
     x2, y2 = point2
     return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 
-# Nokta çiftleri arasındaki mesafeyi hesapla ve distances listesine ekleyin
+# Nokta çiftleri arasındaki mesafeyi hesapla ve distances listesine ekle
 distances = []
 for i in range(len(points)):
     for j in range(i+1, len(points)):
